@@ -1,8 +1,6 @@
 ;; =============================================================================
 ;; PACKAGES
 ;; =============================================================================
-;; vi: filetype=lisp
-
 (require 'package)
 (add-to-list 'package-archives '("org"          . "http://orgmode.org/elpa/"))
 (add-to-list 'package-archives '("melpa"        . "http://melpa.org/packages/"))
@@ -26,4 +24,5 @@
 (add-to-list 'load-path (concat user-emacs-directory "config"))
 
 (require 'my-ui)
+(require 'my-theme)
 
