@@ -10,7 +10,7 @@
 		;; --- Key Bindings ---
 		(define-key helm-map (kbd "C-j") 'helm-next-line)
 		(define-key helm-map (kbd "C-k") 'helm-previous-line)
-		(define-key helm-map (kbd "C-n") 'helm-delete-minibuffer-contents)
+		(define-key helm-map (kbd "C-c") 'helm-delete-minibuffer-contents)
 
 		;; --- Describe Bindings ---
 		(use-package helm-descbinds

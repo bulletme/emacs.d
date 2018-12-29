@@ -23,8 +23,10 @@
 ;; =============================================================================
 (add-to-list 'load-path (concat user-emacs-directory "config"))
 
+(require 'my-core)
 (require 'my-ui)
 (require 'my-theme)
+
 (require 'my-evil)
 (require 'my-helm)
 
