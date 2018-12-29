@@ -1,17 +1,8 @@
-
-;; vi: filetype=lisp
-
-;; =============================================================================
-;; INITIAL
-;; =============================================================================
-(menu-bar-mode     -1) ; hide menu bar
-(tool-bar-mode     -1) ; hide tool bar
-(toggle-scroll-bar -1) ; hide scroll bar
-
-
 ;; =============================================================================
 ;; PACKAGES
 ;; =============================================================================
+;; vi: filetype=lisp
+
 (require 'package)
 (add-to-list 'package-archives '("org"          . "http://orgmode.org/elpa/"))
 (add-to-list 'package-archives '("melpa"        . "http://melpa.org/packages/"))
@@ -27,4 +18,12 @@
 	(package-install 'use-package)
 )
 (require 'use-package)
+
+
+;; =============================================================================
+;; MY CONFIGURATION
+;; =============================================================================
+(add-to-list 'load-path (concat user-emacs-directory "config"))
+
+(require 'my-ui)
 
