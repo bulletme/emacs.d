@@ -26,4 +26,5 @@
 (require 'my-ui)
 (require 'my-theme)
 (require 'my-evil)
+(require 'my-helm)
 
