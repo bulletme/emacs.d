@@ -55,10 +55,14 @@
 		(evil-leader/set-key
 			"q" 'evil-quit
 			"w" 'evil-write
+
 			"h" 'evil-window-left
 			"j" 'evil-window-down
 			"k" 'evil-window-up
 			"l" 'evil-window-right
+
+			"gb" 'magit-blame
+			"gd" 'magit-diff-buffer-file
 		)
 
 		;; --- "Motion" Mode ---
