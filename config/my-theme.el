@@ -22,14 +22,14 @@
 	)
 )
 
-;; --- Solarized Theme ---
-(use-package solarized-theme
-	:ensure solarized-theme
+;; --- MaDhAt2r Theme ---
+(use-package madhat2r-theme
+	:ensure t
 
 	;; REVISIT: Figure out how to use :defer
 	:config (progn
 		;; Load different theme for magit
-		(add-hook 'magit-status-mode-hook (lambda () (load-theme 'solarized-dark t)))
+		(add-hook 'magit-status-mode-hook (lambda () (load-theme 'madhat2r t)))
 	)
 )
 
@@ -63,6 +63,7 @@
 		(setq-default tab-stop-list (number-sequence 4 80 4))
 	)
 )
+
 
 ;; --- Other Settings ---
 (setq-default display-line-numbers 'visual)
