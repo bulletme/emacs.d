@@ -37,5 +37,6 @@
 
 (require 'my-evil)
 (require 'my-helm)
+(require 'my-magit)
 (require 'my-org)
 
